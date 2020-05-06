@@ -1,0 +1,209 @@
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    font-size: 14px;
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+#footer-copyright {
+    position: fixed;
+    background: #1d2022;
+    color: white;
+    padding-top: 10px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+    
+#footer-menu {
+    position: fixed;
+    background: #2a2d30;
+    float: right;
+    color: white;
+    padding-top: 10px;
+    right: 0;
+    bottom: 44;
+    width: 100%;
+    font-size: 12px;
+}
+    
+#footer-menu .col-md-4 {
+
+}
+    
+#footer-menu ul {
+    list-style-type:none;
+}
+    
+#footer-menu hr {
+    border-top:  1px solid grey;
+    padding: 5px;
+    margin: 0px;   
+}
+    
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.bg-dark {
+    background-color: #003a6a !important;
+}
+    
+.btn-primary {
+    background-color: #003a6a;
+}
+    
+#top-navbar {
+    float: right;
+    right: 0;
+}
+    
+#top-navbar a {
+    font-size: 12px;
+    color: lightgray;
+}
+
+.nav-wrapper {
+    width: 100%;
+}
+    
+@media (min-width: 576px)
+.jumbotron
+{
+   padding: 6rem 2rem;
+}
+    
+.carousel
+{
+        position: relative;
+        height: 600px;
+        width: 80%;
+        margin: 0 auto;
+}
+
+.carousel_image
+{
+   width:100%; 
+    height: 100%;
+    object-fit: cover;
+}
+    
+.carousel_track-container{
+        
+  background: white;
+  height: 100%;
+  position: relative;
+    overflow: hidden;
+}
+
+.carousel_track{
+        
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transfrom 250ms ease-in;
+        
+}
+    
+.carousel_slide{
+   position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+    
+.carousel_button{
+        
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+}
+ 
+    
+.carousel_button--left{
+        left: -40px;
+}  
+    
+.carousel_button--right{
+        right: -40px;
+}
+    
+.carousel_button img{
+    width: 18px;    
+        
+}
+    
+.carousel_nav{
+        
+    
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+    
+.carousel_indicator{
+        border: 0;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        background:rgba(0,0,0,.3);
+        margin: 0 12px;
+        cursor: pointer;
+}
+
+.carousel_indicator.current-slide{
+        background: rgba(0,0,0,.75);
+}
+    
+.is-hidden { display: none; }
+
+.eslintrc{
+        "parserOptions": {
+        "ecmaVersion": 2017
+    },
+
+    "env": {
+        "es6": true
+    }
+}
