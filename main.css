@@ -56,9 +56,9 @@
     background: #2a2d30;
     float: right;
     color: white;
-    padding-top: 10px;
+    padding-top: 2px;
     right: 0;
-    bottom: 44;
+    bottom: 8;
     width: 100%;
     font-size: 12px;
 }
@@ -197,13 +197,11 @@
 }
     
 .is-hidden { display: none; }
-
-.eslintrc{
-        "parserOptions": {
-        "ecmaVersion": 2017
-    },
-
-    "env": {
-        "es6": true
-    }
+    
+.text-position{
+    width: 15px;
+        height: 15px;
+       margin: 0 12px;
+    
+        
 }
